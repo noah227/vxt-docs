@@ -6,7 +6,7 @@ export default defineConfig({
     title: "Vxt",
     description: "Docs for vxt",
     head: [
-        ["link", {rel: "icon", href: "/logo.svg"}]
+        ["link", {rel: "icon", href: "/vxt-docs/logo.svg"}]
     ],
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
