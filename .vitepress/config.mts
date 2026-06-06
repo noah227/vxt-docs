@@ -23,7 +23,12 @@ export default defineConfig({
                         text: 'Config', link: '/config',
                         items: [
                             {text: "Vite Config", link: "/config.vite"},
-                            {text: "Manifest", link: "/config.manifest"},
+                            {
+                                text: "Manifest", link: "/config.manifest",
+                                items: [
+                                    {text: "Icons", link: "/config.manifest.icons"}
+                                ]
+                            },
                         ]
                     },
                     {text: 'Examples', link: '/examples'},
