@@ -9,13 +9,13 @@ npm create vxt@latest
 ## Build
 
 ```shell
-npm run build
+npm run build-only
 ```
 
 Or with type check:
 
 ```shell
-npm run build-only
+npm run build
 ```
 
 Or `build-watch` to build with file changes:
